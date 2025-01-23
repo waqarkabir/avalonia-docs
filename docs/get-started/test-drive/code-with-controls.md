@@ -92,7 +92,7 @@ You have now used an event handler to get and set control properties at runtime.
 
 - Stop showing the gridlines (easy).
 - Stop the user from changing the text in the Fahrenheit input by setting the `IsReadOnly` attribute (easy).
-- Calculate the conversion as the user types into the Celsius input using the `TextChanged` event (moderate).
+- Calculate the conversion as the user types into the Celsius input using the `TextChanged` event with TextChangedEventArgs (moderate).
 
 :::info
 For full information about the complete range of Avalonia built-in controls, events and attributes, see the controls reference section [here](../../reference/controls/).
