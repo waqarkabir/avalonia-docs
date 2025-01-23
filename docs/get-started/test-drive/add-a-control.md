@@ -14,7 +14,7 @@ So far, the main window of your application displays only a text string. On this
 Avalonia contains a built-in control that creates a button. Follow this procedure to replace the text string currently in the `Window`'s content zone with a button control.
 
 - Stop the app if it is running.
-- Locate the highlighted line of XAML in the `MainWindow.xaml` file. 
+- Locate the highlighted line of XAML in the `MainWindow.axaml` file. 
 ```xml title='XAML' 
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
