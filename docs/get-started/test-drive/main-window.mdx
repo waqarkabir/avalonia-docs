@@ -26,7 +26,10 @@ Avalonia controls; the window will be drawn on the target platform with 4 **layo
 
 ## The MainWindow Content
 
-Inside the Windows Content, you will see a `<TextBlock>...</TextBlock>` XAML tag. This represents a `TextBlock` control which draws 
+MainWindow is the parent window of the app. Note that it has only a tag "<views:MainView />" which is a UserControl.
+
+## The MainView User Control
+Inside the MainView.axaml file, you will see a `<TextBlock>...</TextBlock>` XAML tag. This represents a `TextBlock` control which draws 
 `Text` to the screen. The `Text` property of the `TextBlock` is bound to the **Greeting** property of 
 the **MainViewModel** class.
 
